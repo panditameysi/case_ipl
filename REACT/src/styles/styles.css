@@ -1,0 +1,305 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navbar styling */
+/* .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  } */
+
+/* Home page styling */
+/* .home {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-image: url('../assets/ipl.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh; 
+} */
+
+/* Add Player page styling */
+/* .add-player {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-player h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-player form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-player label {
+  margin-bottom: 10px;
+}
+
+.add-player input {
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-player fieldset {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.add-player legend {
+  font-weight: bold;
+}
+
+.add-player button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-player button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  color: #28a745;
+  text-align: center;
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+} */
+
+/* Match Details page styling */
+/* .match-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.match-details h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.match-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.match-details th, .match-details td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.match-details th {
+  background-color: #f2f2f2;
+}
+
+.match-details tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.match-details tr:hover {
+  background-color: #f1f1f1;
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+  margin-bottom: 20px;
+} */
+
+/* Top Players page styling */
+/* .top-players {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-players h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 80px;
+  text-align: center;
+}
+
+.input-group button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-group button:disabled {
+  background-color: #ccc;
+}
+
+.top-players table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.top-players th, .top-players td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.top-players th {
+  background-color: #f2f2f2;
+}
+
+.top-players tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.top-players tr:hover {
+  background-color: #f1f1f1;
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+  margin-bottom: 20px;
+} */
+
+/* Matches by Date Range page styling */
+/* .matches-by-date-range {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.matches-by-date-range h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  padding: 8px;
+  margin: 0 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.input-group button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-group button:disabled {
+  background-color: #ccc;
+}
+
+.matches-by-date-range table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.matches-by-date-range th, .matches-by-date-range td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.matches-by-date-range th {
+  background-color: #f2f2f2;
+}
+
+.matches-by-date-range tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.matches-by-date-range tr:hover {
+  background-color: #f1f1f1;
+}
+
+.error-message {
+  color: #dc3545;
+  text-align: center;
+  margin-bottom: 20px;
+}
+ */
